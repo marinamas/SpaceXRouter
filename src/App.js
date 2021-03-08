@@ -6,14 +6,13 @@ import Launches from "./Components/Launches"
 import Nav from "./Components/Nav"
 import History from "./Components/History"
 import ItemContainer from "./Components/ItemContainer"
-
 import {BrowserRouter as Router , Route , Switch} from "react-router-dom"
 
 
 function App() {
   return (
     <Router>
-      <Nav/>
+      <Nav /> 
       <Switch>
       <Route path = "/" exact component ={Rockets} />
       <Route path = "/launches"  component={Launches} />

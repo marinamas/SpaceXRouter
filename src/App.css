@@ -1,10 +1,9 @@
 nav {
   display: flex;
   justify-content: space-around;
-  min-height: 50px;
+  min-height: 65px;
   align-items: center;
-  background-color : grey;
-  }
+  background-color : lightseagreen  }
 
   .nav-items{
   display: flex;
@@ -12,5 +11,11 @@ nav {
   width: 50%;
   align-items: center;
   list-style: none;
-  color : rgb(165, 38, 59);
+  color : rgb(255, 255, 255);
+  }
+
+  .rocket{
+    background-color: rgb(156, 157, 160);
+    padding: 2%;
+    margin: 2px;;
   }
